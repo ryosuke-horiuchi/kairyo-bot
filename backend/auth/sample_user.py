@@ -1,7 +1,7 @@
 sample_user = {
   "Accept": "*/*",
   "Accept-Encoding": "gzip, deflate, br",
-  "Accept-Language": "en",
+  "Accept-Language": "ja",
   "Client-Ip": "22.222.222.2222:64379",
   "Content-Length": "192",
   "Content-Type": "application/json",
