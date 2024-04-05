@@ -599,10 +599,10 @@ const Chat = () => {
     };
 
     const onViewSource = (citation: Citation) => {
-        if (citation.url && !citation.url.includes("blob.core")) {
-            window.open(citation.url, "_blank");
-        }
-    };
+    if (citation.url) {
+        window.open(citation.url, "_blank");
+    }
+};
 
     const parseCitationFromMessage = (message: ChatMessage) => {
         if (message?.role && message?.role === "tool") {
